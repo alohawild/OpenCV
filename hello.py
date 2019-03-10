@@ -25,6 +25,7 @@ __status__ = "Initial"
 
 import cv2
 import sys
+import xgboost as xgb
 
 # =============================================================
 # Main program begins here
@@ -34,6 +35,7 @@ print("Program: hello")
 print("Version ", __version__, " ", __copyright__, " ", __license__)
 print("Running on ", sys.version)
 print("CV version: ", cv2.__version__)
+print("XGBoost version: ", xgb.__version__)
 
 print("Hello World CV")
 
