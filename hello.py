@@ -26,6 +26,7 @@ __status__ = "Initial"
 import cv2
 import sys
 import xgboost as xgb
+import pydicom
 
 # =============================================================
 # Main program begins here
@@ -36,6 +37,7 @@ print("Version ", __version__, " ", __copyright__, " ", __license__)
 print("Running on ", sys.version)
 print("CV version: ", cv2.__version__)
 print("XGBoost version: ", xgb.__version__)
+print("Dicom version: ", pydicom.__version__)
 
 print("Hello World CV")
 
